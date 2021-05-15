@@ -1,8 +1,9 @@
 import React from 'react';
 import  {AvField, AvForm} from "availity-reactstrap-validation"
+import {connect} from "react-redux";
+import {signIn} from "../redux/actions/LoginAction";
 
-
-const Login = () => {
+const Login = (props) => {
     return (
         <div className="login">
             <div className="container">
@@ -10,7 +11,7 @@ const Login = () => {
                     <div className="col-4 offset-4 my-5">
                         <div className="card">
                             <div className="card-body">
-                                <AvForm>
+                                <AvForm onValidSubmit={props.signIn}>
                                     <AvField
                                         type="text"
                                         name="phoneNumber"
@@ -36,4 +37,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default connect(null, {signIn})(Login);

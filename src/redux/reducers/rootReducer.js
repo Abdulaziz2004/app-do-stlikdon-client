@@ -1,7 +1,7 @@
+import Login from "../../pages/Login";
 
-
-const {combineReducers} = require("redux");
+import {combineReducers} from "redux";
 
 export const rootReducer = combineReducers({
-
+    login: Login
 })
