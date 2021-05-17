@@ -5,13 +5,25 @@ import {Link} from "react-router-dom";
 const NewsView = () => {
     return (
         <div>
-            <div className="container">
-                <div className="card">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto consectetur enim
-                        explicabo, fugit id impedit, laudantium, minus molestias numquam officia omnis porro quas qui
-                        quibusdam ratione repudiandae voluptatem voluptates?</h2>
+                <div className="Struktura">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 d-flex text">
+                                <div className="imgs">
+                                    <Link to="/">
+                                        <img src="/image/strelga.png"/>
+                                    </Link>
+                                </div>
+                                <p>Jamiyat haqida</p>
+                                <p>Struktura</p>
+                                <p>Yangiliklar</p>
+                                <p>Elektron murojaatlar</p>
+                                <p>Interaktiv xizmatlar</p>
+                                <p>Aloqa</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </div>
     );
 };

@@ -38,7 +38,7 @@ const Cards = () => {
                                 aksiyadorlari diqqatiga! 2020-yil 27-mart <br/>
                                 kuni soat 9:00 dan...
                             </h4>
-                            <Link to="/NewsView" className="btn Link">
+                            <Link to="/news-view" className="btn Link">
                                 Batafsil
                             </Link>
                         </div>
@@ -65,7 +65,7 @@ const Cards = () => {
                             <h4 className="text-dark">
                                 “O‘zdonmaxsulot” aksiyadorlik kompaniya tizim korxonalari tomonidan istisno tarikasida maxalliy...
                             </h4>
-                            <Link to="/NewsView" className="btn Link">
+                            <Link to="/news-view" className="btn Link">
                                 Batafsil
                             </Link>
                         </div>
